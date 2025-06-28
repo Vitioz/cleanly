@@ -43,7 +43,7 @@ A complete, professional, modern and responsive landing page for cleaning servic
 
 1. **Download or Clone**
    ```bash
-   git clone https://github.com/vitioz/cleanly-website.git
+   git clone https://github.com/Vitioz/cleanly.git
    cd cleanly-website
    ```
 
