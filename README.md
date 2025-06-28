@@ -1,95 +1,133 @@
 # Cleanly - Professional Cleaning Service Website
 
-A complete, professional, modern and responsive landing page for cleaning service companies. Built with HTML5, TailwindCSS, and vanilla JavaScript.
+<div align="center">
 
-![Cleanly Website Preview](./assets/images/og-image.jpg)
+![Cleanly Logo](./assets/images/og-image.jpg)
+
+**A complete, professional, modern and responsive landing page for cleaning service companies**
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-blue?style=for-the-badge&logo=vercel)](https://vitioz.github.io/cleanly/)
+[![GitHub Stars](https://img.shields.io/github/stars/Vitioz/cleanly?style=for-the-badge&logo=github)](https://github.com/Vitioz/cleanly/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Vitioz/cleanly?style=for-the-badge&logo=github)](https://github.com/Vitioz/cleanly/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/Vitioz/cleanly?style=for-the-badge&logo=github)](https://github.com/Vitioz/cleanly/issues)
+[![License](https://img.shields.io/github/license/Vitioz/cleanly?style=for-the-badge)](./LICENSE)
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support%20Development-orange?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/viktorolefir)
+
+</div>
 
 ## 🌟 Features
 
-### Design & User Experience
-- **Modern, Clean Design**: Professional layout with fresh color palette (blue, mint green, white)
-- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
-- **Smooth Animations**: AOS (Animate On Scroll) library integration with custom CSS animations
-- **Interactive Elements**: Hover effects, transitions, and micro-interactions
-- **Loading Screen**: Professional loading animation with fade-out effect
-- **Sticky Navigation**: Header with scroll effects and active section highlighting
+<table>
+<tr>
+<td>
 
-### Sections Included
-1. **Header**: Sticky navigation with logo, menu, and CTA button
-2. **Hero Section**: Compelling headline with gradient text and call-to-action
-3. **Services Section**: 6 service cards with icons and descriptions
-4. **About Us Section**: Company information with trust indicators
-5. **Testimonials Section**: Customer reviews with photos and ratings
-6. **Pricing Section**: 3-tier pricing cards with feature comparison
-7. **Contact Section**: Contact form with validation and company information
-8. **Footer**: Links, social media icons, and company details
+### 🎨 Design & UX
+- **Modern Clean Design** - Professional layout with fresh color palette
+- **Fully Responsive** - Optimized for all devices
+- **Smooth Animations** - AOS integration with custom CSS
+- **Interactive Elements** - Hover effects and micro-interactions
+- **Loading Screen** - Professional loading animation
+- **Sticky Navigation** - Header with scroll effects
 
-### Technical Features
-- **SEO Optimized**: Meta tags, Open Graph, and Twitter Card support
-- **Accessibility**: ARIA labels, keyboard navigation, and screen reader support
-- **Performance**: Optimized images, lazy loading, and efficient code
-- **Form Validation**: Real-time validation with error handling
-- **Cross-browser Compatible**: Works on all modern browsers
-- **Print Friendly**: Optimized print styles included
+</td>
+<td>
+
+### 🛠️ Technical Features
+- **SEO Optimized** - Meta tags, Open Graph, Twitter Cards
+- **Accessibility** - ARIA labels, keyboard navigation
+- **Performance** - Optimized images, lazy loading
+- **Form Validation** - Real-time validation with error handling
+- **Cross-browser** - Works on all modern browsers
+- **Print Friendly** - Optimized print styles
+
+</td>
+</tr>
+</table>
+
+## 📸 Screenshots
+
+<div align="center">
+
+| Desktop | Mobile |
+|---------|--------|
+| <img width="1455" alt="image" src="https://github.com/user-attachments/assets/4a8604bd-d4f8-49bb-86e4-14064138ad22" /> | <img width="340" alt="image" src="https://github.com/user-attachments/assets/0241c268-daf7-430a-a203-f008df6f8a68" /> |
+
+</div>
 
 ## 🚀 Quick Start
 
-### Prerequisites
-- Web browser (Chrome, Firefox, Safari, Edge)
-- Text editor (VS Code, Sublime Text, etc.)
-- Local web server (optional, for development)
-
-### Installation
-
-1. **Download or Clone**
-   ```bash
-   git clone https://github.com/Vitioz/cleanly.git
-   cd cleanly-website
-   ```
-
-2. **Open in Browser**
-   - Simply open `index.html` in your web browser
-   - Or use a local server for development:
-   ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js
-   npx serve .
-   
-   # Using PHP
-   php -S localhost:8000
-   ```
-
-3. **View the Website**
-   - Open `http://localhost:8000` in your browser
-   - The website should load with all animations and features working
-
-## 📁 File Structure
-
-```
-cleanly-website/
-├── index.html              # Main HTML file
-├── styles.css              # Custom CSS styles
-├── script.js               # JavaScript functionality
-├── README.md               # This documentation
-├── design-plan.md          # Design specifications
-└── assets/
-    ├── favicon.png          # Website favicon
-    ├── images/
-    │   ├── hero-cleaning.jpg     # Hero section image
-    │   ├── about-team.jpg        # About section team photo
-    │   ├── testimonial-1.jpg     # Customer testimonial photo
-    │   ├── testimonial-2.jpg     # Customer testimonial photo
-    │   ├── testimonial-3.jpg     # Customer testimonial photo
-    │   └── og-image.jpg          # Social media preview image
-    └── icons/               # Service and UI icons (placeholder)
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Vitioz/cleanly.git
+cd cleanly
 ```
 
-## 🎨 Customization Guide
+### 2. Open in Browser
+```bash
+# Simply open index.html in your browser
+# Or use a local server:
+
+# Python
+python -m http.server 8000
+
+# Node.js
+npx serve .
+
+# PHP
+php -S localhost:8000
+```
+
+### 3. View the Website
+Open `http://localhost:8000` in your browser
+
+## 📁 Project Structure
+
+```
+cleanly/
+├── 📄 index.html              # Main HTML file
+├── 🎨 styles.css              # Custom CSS styles
+├── ⚡ script.js               # JavaScript functionality
+├── 📖 README.md               # Documentation
+├── 📋 design-plan.md          # Design specifications
+└── 📁 assets/
+    ├── 🖼️ favicon.png          # Website favicon
+    ├── 📁 images/
+    │   ├── hero-cleaning.jpg
+    │   ├── about-team.jpg
+    │   ├── testimonial-*.jpg
+    │   └── og-image.jpg
+    └── 📁 icons/               # Service and UI icons
+```
+
+## 🎯 Sections Included
+
+<div align="center">
+
+| Section | Description |
+|---------|-------------|
+| 🏠 **Header** | Sticky navigation with logo, menu, and CTA |
+| 🌟 **Hero** | Compelling headline with gradient text |
+| 🧹 **Services** | 6 service cards with icons and descriptions |
+| 👥 **About Us** | Company information with trust indicators |
+| 💬 **Testimonials** | Customer reviews with photos and ratings |
+| 💰 **Pricing** | 3-tier pricing cards with feature comparison |
+| 📞 **Contact** | Contact form with validation |
+| 🔗 **Footer** | Links, social media, and company details |
+
+</div>
+
+## 🛠️ Built With
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+## 🎨 Customization
 
 ### Brand Colors
-The website uses CSS custom properties for easy color customization. Update these values in `styles.css`:
+Update CSS custom properties in `styles.css`:
 
 ```css
 :root {
@@ -102,334 +140,118 @@ The website uses CSS custom properties for easy color customization. Update thes
 }
 ```
 
-### Company Information
-Update the following sections in `index.html`:
+### Content Updates
+- **Company Info**: Update name, contact details, and descriptions
+- **Services**: Modify service cards content and icons
+- **Testimonials**: Replace customer reviews and photos
+- **Pricing**: Update pricing plans and features
+- **Images**: Replace with your own professional photos
 
-1. **Company Name & Slogan**
-   - Line 40: Logo text
-   - Line 78: Main headline
-   - Line 82: Slogan and description
+## 📱 Responsive Design
 
-2. **Contact Information**
-   - Lines 890-920: Phone, email, address
-   - Lines 925-935: Business hours
+<div align="center">
 
-3. **Services**
-   - Lines 200-400: Service cards content
-   - Update titles, descriptions, and icons
+| Device | Breakpoint | Features |
+|--------|------------|----------|
+| 📱 Mobile | 320px - 767px | Touch-friendly, collapsible menu |
+| 📱 Tablet | 768px - 1023px | Optimized layout, touch support |
+| 💻 Desktop | 1024px+ | Full features, hover effects |
 
-4. **Testimonials**
-   - Lines 500-650: Customer reviews
-   - Replace names, photos, and testimonials
-
-5. **Pricing**
-   - Lines 700-850: Pricing plans
-   - Update prices, features, and plan names
-
-### Images
-Replace placeholder images in the `assets/images/` directory:
-
-- `hero-cleaning.jpg`: Main hero section image (1200x800px recommended)
-- `about-team.jpg`: Team or company photo (800x600px recommended)
-- `testimonial-*.jpg`: Customer photos (400x400px recommended)
-- `og-image.jpg`: Social media preview (1200x630px required)
-- `favicon.png`: Website icon (32x32px or 64x64px)
-
-### Fonts
-The website uses Inter font from Google Fonts. To change the font:
-
-1. Update the Google Fonts link in `index.html` (line 32)
-2. Update the font-family in `styles.css` (line 4)
-
-### Adding New Sections
-To add new sections:
-
-1. Add HTML structure after existing sections
-2. Include appropriate `data-aos` attributes for animations
-3. Add corresponding navigation link in the header
-4. Update the JavaScript navigation handler
-
-## 🛠️ Development
-
-### Dependencies
-- **TailwindCSS**: Utility-first CSS framework (CDN)
-- **AOS**: Animate On Scroll library (CDN)
-- **Google Fonts**: Inter font family (CDN)
-
-### Browser Support
-- Chrome 60+
-- Firefox 60+
-- Safari 12+
-- Edge 79+
-
-### Performance Optimization
-- Images are optimized for web
-- CSS and JavaScript are minified for production
-- Lazy loading implemented for images
-- Efficient animations with CSS transforms
-
-### Accessibility Features
-- Semantic HTML5 structure
-- ARIA labels and roles
-- Keyboard navigation support
-- Screen reader compatibility
-- High contrast mode support
-- Reduced motion preferences respected
-
-## 📱 Mobile Optimization
-
-The website is fully responsive with:
-- Mobile-first design approach
-- Touch-friendly interactive elements
-- Optimized typography for small screens
-- Collapsible mobile navigation menu
-- Swipe-friendly testimonial carousel
-
-### Breakpoints
-- Mobile: 320px - 767px
-- Tablet: 768px - 1023px
-- Desktop: 1024px+
-
-## 🔧 Configuration
-
-### Form Handling
-The contact form includes client-side validation. To add server-side processing:
-
-1. Update the form action in `index.html`
-2. Modify the `submitForm()` function in `script.js`
-3. Add your backend endpoint or service (e.g., Formspree, Netlify Forms)
-
-Example with Formspree:
-```html
-<form action="https://formspree.io/f/your-form-id" method="POST">
-```
-
-### Analytics Integration
-To add Google Analytics:
-
-1. Add the tracking code before the closing `</head>` tag
-2. Update the privacy policy to mention analytics
-
-### SEO Configuration
-Update meta tags in `index.html`:
-- Title tag (line 23)
-- Meta description (line 8)
-- Open Graph tags (lines 13-17)
-- Twitter Card tags (lines 19-21)
+</div>
 
 ## 🚀 Deployment
 
-### Static Hosting (Recommended)
-Deploy to any static hosting service:
+### Recommended Hosting Platforms
 
-1. **Netlify**
-   - Drag and drop the project folder
-   - Or connect your Git repository
-   - Automatic deployments on updates
+[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://netlify.com)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)](https://pages.github.com)
 
-2. **Vercel**
-   - Import from Git repository
-   - Zero-configuration deployment
-   - Global CDN included
+### Quick Deploy
 
-3. **GitHub Pages**
-   - Push to GitHub repository
-   - Enable Pages in repository settings
-   - Free hosting for public repositories
+1. **Fork this repository**
+2. **Connect to your hosting platform**
+3. **Deploy automatically**
 
-4. **AWS S3 + CloudFront**
-   - Upload files to S3 bucket
-   - Configure CloudFront distribution
-   - Custom domain support
+## 📊 Performance
 
-### Domain Configuration
-1. Purchase domain from registrar
-2. Update DNS settings to point to hosting service
-3. Configure SSL certificate (usually automatic)
-4. Update absolute URLs in meta tags
-
-### Pre-deployment Checklist
-- [ ] Test all forms and interactions
-- [ ] Verify all images load correctly
-- [ ] Check responsive design on multiple devices
-- [ ] Validate HTML and CSS
-- [ ] Test page load speed
-- [ ] Verify SEO meta tags
-- [ ] Check accessibility compliance
-
-## 🔍 SEO Best Practices
-
-### On-Page SEO
-- Semantic HTML structure
-- Optimized title tags and meta descriptions
-- Header hierarchy (H1, H2, H3)
-- Alt text for all images
-- Internal linking structure
-- Schema markup for local business
-
-### Technical SEO
-- Fast loading times (< 3 seconds)
-- Mobile-friendly design
-- SSL certificate
-- XML sitemap
-- Robots.txt file
-- Structured data markup
-
-### Local SEO
-- Google My Business listing
-- Local keywords in content
-- NAP (Name, Address, Phone) consistency
-- Customer reviews and testimonials
-- Local business schema markup
-
-## 🎯 Marketing Integration
-
-### Social Media
-- Open Graph tags for Facebook sharing
-- Twitter Card tags for Twitter sharing
-- Social media icons in footer
-- Shareable content structure
-
-### Email Marketing
-- Newsletter signup form (add to contact section)
-- Email automation integration
-- Customer testimonial collection
-
-### Analytics & Tracking
-- Google Analytics 4 setup
-- Conversion tracking for form submissions
-- Heat mapping tools (Hotjar, Crazy Egg)
-- A/B testing capabilities
-
-## 🛡️ Security Considerations
-
-### Form Security
-- Client-side validation (implemented)
-- Server-side validation (required for production)
-- CSRF protection
-- Rate limiting for form submissions
-
-### Content Security
-- Content Security Policy (CSP) headers
-- Secure hosting with HTTPS
-- Regular security updates
-- Input sanitization
-
-## 📊 Performance Metrics
+<div align="center">
 
 ### Core Web Vitals
-- **Largest Contentful Paint (LCP)**: < 2.5s
-- **First Input Delay (FID)**: < 100ms
-- **Cumulative Layout Shift (CLS)**: < 0.1
+[![Lighthouse](https://img.shields.io/badge/Lighthouse-95%2B-brightgreen?style=for-the-badge&logo=lighthouse)](https://developers.google.com/web/tools/lighthouse)
 
-### Optimization Techniques
-- Image compression and WebP format
-- CSS and JavaScript minification
-- Gzip compression
-- Browser caching headers
-- CDN usage for static assets
+| Metric | Target | Status |
+|--------|--------|--------|
+| LCP | < 2.5s | ✅ |
+| FID | < 100ms | ✅ |
+| CLS | < 0.1 | ✅ |
 
-## 🔄 Maintenance
+</div>
 
-### Regular Updates
-- Content updates (services, pricing, testimonials)
-- Image optimization and replacement
-- Security patches for dependencies
-- Performance monitoring and optimization
+## 🔧 Browser Support
 
-### Backup Strategy
-- Regular backups of website files
-- Version control with Git
-- Database backups (if applicable)
-- Disaster recovery plan
+<div align="center">
+
+[![Chrome](https://img.shields.io/badge/Chrome-60%2B-green?style=for-the-badge&logo=google-chrome)](https://www.google.com/chrome/)
+[![Firefox](https://img.shields.io/badge/Firefox-60%2B-orange?style=for-the-badge&logo=firefox)](https://www.mozilla.org/firefox/)
+[![Safari](https://img.shields.io/badge/Safari-12%2B-blue?style=for-the-badge&logo=safari)](https://www.apple.com/safari/)
+[![Edge](https://img.shields.io/badge/Edge-79%2B-blue?style=for-the-badge&logo=microsoft-edge)](https://www.microsoft.com/edge)
+
+</div>
 
 ## 🤝 Contributing
 
-### Development Workflow
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-### Code Standards
-- Use semantic HTML5 elements
-- Follow BEM CSS methodology
-- Write clean, commented JavaScript
-- Maintain responsive design principles
-- Ensure accessibility compliance
-
-## 📞 Support
-
-### Getting Help
-- Check the documentation first
-- Search existing issues on GitHub
-- Create a new issue with detailed description
-- Include browser and device information
-
-### Professional Services
-For custom development or advanced features:
-- Custom design modifications
-- Advanced functionality integration
-- Performance optimization
-- SEO consultation
-- Ongoing maintenance
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Commercial Use
-- ✅ Commercial use allowed
-- ✅ Modification allowed
-- ✅ Distribution allowed
-- ✅ Private use allowed
-- ❌ Liability and warranty not provided
+## 💖 Support
 
-## 🙏 Credits
+If this project helped you, please consider:
 
-### Design & Development
-- **Created by**: Viktor Olefir
-- **Design Inspiration**: Modern cleaning service websites
-- **Color Palette**: Professional blue and green scheme
-- **Typography**: Inter font family
+<div align="center">
 
-### Libraries & Tools
-- **TailwindCSS**: Utility-first CSS framework
-- **AOS**: Animate On Scroll library
-- **Google Fonts**: Web font service
-- **Unsplash**: Stock photography inspiration
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support%20Development-orange?style=for-the-badge&logo=buy-me-a-coffee)](https://buymeacoffee.com/viktorolefir)
+[![GitHub Stars](https://img.shields.io/badge/Give%20a%20Star-⭐-yellow?style=for-the-badge&logo=github)](https://github.com/Vitioz/cleanly)
 
-### Special Thanks
-- TailwindCSS team for the excellent framework
-- AOS library contributors
-- Google Fonts for free typography
-- The web development community
+</div>
 
----
+## 👨‍💻 Author
 
-## 📈 Changelog
+<div align="center">
 
-### Version 1.0.0 (Current)
-- Initial release
-- Complete landing page with all sections
-- Responsive design implementation
-- Form validation and animations
-- SEO optimization
-- Accessibility features
+**Viktor Olefir**
 
-### Planned Features
-- Dark mode toggle
-- Multi-language support
-- Advanced form handling
-- Blog section integration
-- Customer portal
-- Online booking system
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vitioz)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-orange?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/viktorolefir)
+
+</div>
+
+## 📞 Get In Touch
+
+Have questions or need custom development? Feel free to reach out!
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:vikolefir@gmail.com)
+[![Website](https://img.shields.io/badge/Website-Visit-blue?style=for-the-badge&logo=firefox)](https://viktorolefir.com/)
+
+</div>
 
 ---
+
+<div align="center">
 
 **Made with ❤️ by Viktor Olefir**
-https://buymeacoffee.com/viktorolefir
-For questions, suggestions, or custom development needs, please reach out through the contact form or create an issue on GitHub.
 
+If you found this project helpful, please give it a ⭐ star!
 
+</div>
